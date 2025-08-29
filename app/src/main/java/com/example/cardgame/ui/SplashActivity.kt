@@ -23,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
 
         // Load the fade-in animation
         val fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in)
-        binding.textViewJudgement.startAnimation(fadeIn)
+        binding.appLogo.startAnimation(fadeIn)
 
         // Use a Handler to delay the transition to the main screen
         lifecycleScope.launch {

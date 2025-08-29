@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Kaachuful</string>
     <string name="splash_text">Judgement</string>
+    <string name="LogoDesc">AppLogo</string>
+    <string name="NameField">Enter Name</string>
+    <string name="create_room_btn">Create Room</string>
+    <string name="pass_n_play">Pass\'N\'Play</string>
+    <string name="join_room">Join Room</string>
 </resources>

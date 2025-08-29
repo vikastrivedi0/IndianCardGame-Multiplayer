@@ -5,21 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/splash_bg"
-    tools:context=".SplashActivity"
+    tools:context=".ui.SplashActivity"
     android:id="@+id/splash_layout"
     >
 
-    <TextView
-        android:id="@+id/textViewJudgement"
+
+    <ImageView
+        android:id="@+id/appLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/splash_text"
-        android:textColor="@color/splash_text"
-        android:textSize="48sp"
-        android:textStyle="bold"
+        android:contentDescription="@string/LogoDesc"
+        app:srcCompat="@drawable/card_game_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
